@@ -56,8 +56,9 @@ Building cannot be performed on a tile with an enemy unit.
 ### City features
 City has a build radius base of 2.\
 City gains +2 build radius for each upgrade.\
-City has a static base defense of 3.\
-Each adjacent house grants +1 defense.
+City has a static base defense of 4.\
+Each adjacent house grants +1 defense.\
+The attacker's attack power must be the same or higher than the city's defence to destroy the city.
 
 ### City types
 **Level 1 - Town**\
@@ -94,6 +95,7 @@ Can generate 1 Military Token per turn
 - Additional adjacent troops add their power to the battle
 - Attacker wins ties
 - Attack can be performed even if the unit is out of moves
+- A ranged attack can be dodged by rolling 4 or higher
 
 ## Recruiting and disbanding
 - One unit can be recruited per city
