@@ -54,7 +54,7 @@ Building cannot be performed on a tile with an enemy unit.
 - Houses can be destroyed by units by moving on top of them or by attacking
 
 ### City features
-City has a build radius base of 2.\
+City has a base build radius of 2.\
 City gains +2 build radius for each upgrade.\
 City has a static base defense of 4.\
 Each adjacent house grants +1 defense.\
