@@ -42,7 +42,7 @@ Building cannot be performed on a tile with an enemy unit.
 - Upgrade a city by building an additional ring around the city
 - Minimum of 4 houses for level 1 ring, minimum of 6 for above
 - The new ring must be build as much as possible
-- City centers can be built on top of water, canyon or mountain tiles
+- City centers can be built on any tile, including water, canyons and mountains
 - Houses replaced with tokens do not count towards a new ring
 - City consists of connected houses, areas that do not connect do not count towards the rings
 - If a city center is being built on top of a friendly unit, move that unit to any valid adjacent tile
