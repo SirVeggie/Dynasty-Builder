@@ -15,7 +15,7 @@ Each player starts with a level 1 city center in one of the special tiles and on
 ### Winning conditions
 
 **Conqueror** - Destroy all enemy city centers\
-**Dynasty** - Reach total of 10 city levels\
+**Dynasty** - Reach total of 12 city levels\
 **Veteran** - Acquire 12 military tokens\
 **Timeout** - Achieve highest points after **x** amount of turns or **x** amount of time
 
@@ -88,6 +88,8 @@ Can generate 1 Military Token per turn
 - A unit cannot move after attacking
 - If a land unit lands on a ship, it will be carried while the ship moves
 - A unit carried by a ship cannot attack
+- Units moving on the same terrain have a -1 movement penalty when adjacent to enemy units
+- Units moving to/from/within a canyon have a -1 movement penalty
 
 ## Attacking
 - Power difference contributes to dice number
@@ -96,6 +98,7 @@ Can generate 1 Military Token per turn
 - Attacker wins ties
 - Attack can be performed even if the unit is out of moves
 - A ranged attack can be dodged by rolling 4 or higher
+  - This value can be increased by supporting with additional ships (+1 per ship)
 
 ## Recruiting and disbanding
 - One unit can be recruited per city
@@ -123,7 +126,7 @@ Losing a level 2 or higher city center drops 1 military token signified by fleei
 
 **Token usage:**\
 Military tokens are worth 1 point when the game ends.\
-Military tokens can be used to create 1 unit per turn on any tile within friendly territory that is traversable by that unit.\
+Military tokens can be used to create units on any tile within friendly territory that is traversable by that unit.\
 Unit cannot be created adjacent to enemy troops or structures.\
 Created units cannot exceed current unit limit.\
 Unit creation must be performed during the recruiting phase.
