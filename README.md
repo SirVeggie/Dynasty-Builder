@@ -156,7 +156,7 @@ Unit creation must be performed during the recruiting phase.
 
 ### Siege
 - Required level 3 city
-- Power 0
+- Power -1
 - Range 1
 - Movement 2
 - Unconditionally destroys city upon attack
