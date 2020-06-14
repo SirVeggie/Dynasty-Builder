@@ -90,6 +90,7 @@ Can generate 1 Military Token per turn
 - A unit carried by a ship cannot attack
 - Units moving on the same terrain have a -1 movement penalty when adjacent to enemy units
 - Units moving to/from/within a canyon have a -1 movement penalty
+- Units can always move at least 1 tile per turn
 
 ## Attacking
 - Power difference contributes to dice number
