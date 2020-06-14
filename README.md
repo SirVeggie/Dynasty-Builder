@@ -97,7 +97,7 @@ Can generate 1 Military Token per turn
 - Additional adjacent troops add their power to the battle
 - Attacker wins ties
 - Attack can be performed even if the unit is out of moves
-- A ranged attack can be dodged by rolling 4 or higher
+- A ranged attack can be dodged by rolling 3 or higher
   - This value can be increased by supporting with additional ships (+1 per ship)
 
 ## Recruiting and disbanding
