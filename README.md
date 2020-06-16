@@ -39,6 +39,10 @@ Building cannot be performed on a tile with an enemy unit.
 
 ### Terms:
 
+|  |  |
+| ------- | ---- |
+| data    | it's great |
+
 **City Area** - The tiles within the city's range\
 **Friendly Territory** - The area defined by the combined area of the player's cities\
 **Conflicted Territory** - An area in which multiple territories are overlapping\
@@ -47,26 +51,26 @@ Building cannot be performed on a tile with an enemy unit.
 **City Center** - The building built in the center of the city
 
 ### City building
-- Create a 6 house ring and place a pagoda in the middle to build a city
-- Upgrade a city by building an additional ring around the [**City Center**](#terms)
-- A new ring must be build as full as possible
-- Minimum of 4 houses for level 1 ring, minimum of 6 for above
-- [**City Centers**](#terms) can be built on any tile, including water, canyons and mountains
-- Houses replaced with tokens do not count towards a new ring
-- All previous rings must be complete before upgrading a city
-- City consists of connected houses, areas that do not connect do not count towards the rings
-- If a city center is being built on top of a friendly unit, move that unit to any valid adjacent tile
+Create a 6 house ring and place a [**City Center**](#terms) in the middle to build a city\
+Upgrade a city by building an additional ring around the [**City Center**](#terms)\
+A new ring must be build as full as possible\
+Minimum of 4 houses for level 1 ring, minimum of 6 for above\
+[**City Centers**](#terms) can be built on any tile, including water, canyons and mountains\
+Houses replaced with tokens do not count towards a new ring\
+All previous rings must be complete before upgrading a city\
+City consists of connected houses, areas that do not connect do not count towards the rings\
+If a city center is being built on top of a friendly unit, move that unit to any valid adjacent tile
 
 ### Houses
-- Houses can be built on [**Friendly Territory**](#terms), or next to a unit
-- Houses cannot be built on [**Conflicted Territory**](#terms)
-- Houses cannot be built on top of water, canyon or mountain tiles
-- Houses can be destroyed by enemy units by moving on top of them or by attacking
+Houses can be built on [**Friendly Territory**](#terms), or next to a unit\
+Houses cannot be built on [**Conflicted Territory**](#terms)\
+Houses cannot be built on top of water, canyon or mountain tiles\
+Houses can be destroyed by enemy units by moving on top of them or by attacking
 
 ### City features
-City has range of **level x 2**.\
-City has a static base defense of 4.\
-Each adjacent house grants +1 defense.\
+City has a range calculated by **level x 2**\
+City has a static base defense of 4\
+Each adjacent house grants +1 defense
 
 ### City types
 **Level 1 - Town**\
@@ -85,7 +89,7 @@ Can generate 1 [**Military Token**](#special-tokens) per turn
 Can use one [**Spell**](#spells) per turn
 
 ### Bridges:
-- The round piece works as a bridge
+- Each player has a single bridge
 - Build the bridge on water with one build action
 - A new bridge causes the previous to disappear
 - Troops can use an enemy's bridge
