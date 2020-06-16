@@ -40,7 +40,7 @@ Building cannot be performed on a tile with an enemy unit.
 ### Terms:
 
 | **City Area** | The tiles within the city's range |
-|-|-|
+|:-|:-|
 | **Friendly Territory** | The area defined by the combined area of the player's cities |
 | **Conflicted Territory** | An area in which multiple territories are overlapping |
 | **Hostile Territory** | An enemy player's territory |
