@@ -37,9 +37,9 @@ The build phase has 3 different actions:
 3 build actions can be performed during the build phase.\
 Building cannot be performed on a tile with an enemy unit.
 
-### Terms:
+### Terms
 
-| | |
+| Terms | |
 |:-|:-|
 | **City Area** | The tiles within the city's range |
 | **Friendly Territory** | The area defined by the combined area of the player's cities |
