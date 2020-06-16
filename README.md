@@ -93,13 +93,24 @@ Can generate 1 Military Token per turn
 - Units can always move at least 1 tile per turn
 
 ## Attacking
-- Power difference contributes to dice number
-- Battle area is the defending party's tile
-- Additional adjacent troops add their power to the battle
-- Attacker wins ties
-- Attack can be performed even if the unit is out of moves
-- A ranged attack can be dodged by rolling 3 or higher
-  - This value can be increased by supporting with additional ships (+1 per ship)
+- The **Power** values of both units are added to the dice
+- The area of battle is the tile on which the defender party stands
+- An attack can be performed even if the unit is out of moves
+- In case of a tie, the attacker can back off, or try again
+- Each unit only has one attack per turn
+
+### Supporting
+- Units can support the battle if the battle area is within their range [(see exception)](#range-attacks)
+- The **Power** values of the supporting units are added to the dice during combat
+
+### Range attacks
+- The target can choose to evade or retaliate
+- Retaliation is only possible if the attacker is within their range
+- All normal battles can be supported by ranged units
+- Ranged attacks can be supported only by other ranged units **when attacking**
+- Ranged attacks can not be supported against **when defending**
+- A ranged attack can be evaded by rolling 2 or higher
+  - This value can be increased by supporting with additional ships (+2 per ship)
 
 ## Recruiting and disbanding
 - One unit can be recruited per city
@@ -140,26 +151,27 @@ Unit creation must be performed during the recruiting phase.
 
 ## Troops
 ### Soldier
-- Required level 2 city
+- City level 2
 - Power 1
 - Range 1
 - Movement 2
 
 ### Ship
-- Required level 2 city
+- City level 2
 - Power 1
 - Range 2
 - Movement 4
+- Ranged unit
 - Can carry a single unit
 
 ### Knight
-- Requires level 3 city
+- City level 3
 - Power 2
 - Range 1
 - Movement 3
 
 ### Siege
-- Required level 3 city
+- City level 3
 - Power -1
 - Range 1
 - Movement 2
