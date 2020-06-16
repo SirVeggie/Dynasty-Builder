@@ -4,7 +4,7 @@
 
 ### Start
 
-Each player starts with a level 1 city center in one of the special tiles and one soldier placed somewhere within its radius.
+Each player starts with a level 1 city center placed somewhere within their part of the board and one soldier placed somewhere within 2 tiles of it.
 
 ### Round
 **1\)** Build\
@@ -25,7 +25,7 @@ Each player starts with a level 1 city center in one of the special tiles and on
 - Level 3 units: 1p
 - Military tokens: 1p
 
-- - -
+
 
 ## Building
 
@@ -37,41 +37,52 @@ The build phase has 3 different actions:
 3 build actions can be performed during the build phase.\
 Building cannot be performed on a tile with an enemy unit.
 
+### Terms:
+
+**City Area** - The tiles within the city's range\
+**Friendly Territory** - The area defined by the combined area of the player's cities\
+**Conflicted Territory** - An area in which multiple territories are overlapping\
+**Hostile Territory** - An enemy player's territory\
+**Combat Power** - Value of the dice + the **Power** of the participating units\
+**City Center** - The building built in the center of the city
+
 ### City building
 - Create a 6 house ring and place a pagoda in the middle to build a city
-- Upgrade a city by building an additional ring around the city
+- Upgrade a city by building an additional ring around the [**City Center**](#terms)
+- A new ring must be build as full as possible
 - Minimum of 4 houses for level 1 ring, minimum of 6 for above
-- The new ring must be build as much as possible
-- City centers can be built on any tile, including water, canyons and mountains
+- [**City Centers**](#terms) can be built on any tile, including water, canyons and mountains
 - Houses replaced with tokens do not count towards a new ring
+- All previous rings must be complete before upgrading a city
 - City consists of connected houses, areas that do not connect do not count towards the rings
 - If a city center is being built on top of a friendly unit, move that unit to any valid adjacent tile
 
 ### Houses
-- To build a house, it must be within a city's build area, or next to a troop (can't be built on another player's radius)
+- Houses can be built on [**Friendly Territory**](#terms), or next to a unit
+- Houses cannot be built on [**Conflicted Territory**](#terms)
 - Houses cannot be built on top of water, canyon or mountain tiles
-- Houses can be replaced with land tokens
-- Houses can be destroyed by units by moving on top of them or by attacking
+- Houses can be destroyed by enemy units by moving on top of them or by attacking
 
 ### City features
-City has a base build radius of 2.\
-City gains +2 build radius for each upgrade.\
+City has range of **level x 2**.\
 City has a static base defense of 4.\
 Each adjacent house grants +1 defense.\
-The attacker's attack power must be the same or higher than the city's defence to destroy the city.
 
 ### City types
 **Level 1 - Town**\
 Raises unit limit by 1
 
 **Level 2 - City**\
-Can recruit Ships and Infantry
+Can recruit [**Ships**](#troops) and [**Infantry**](#troops)
 
 **Level 3 - Fort**\
-Can recruit Knights and Siege Towers
+Can recruit [**Knights**](#troops) and [**Siege Towers**](#troops)
 
 **Level 4 - Military Academy**\
-Can generate 1 Military Token per turn
+Can generate 1 [**Military Token**](#special-tokens) per turn
+
+**Level 5 - Mage Tower**\
+Can use one [**Spell**](#spells) per turn
 
 ### Bridges:
 - The round piece works as a bridge
@@ -81,7 +92,7 @@ Can generate 1 Military Token per turn
 - Enemy bridge can be destoryed by attacking it
 - A bridge occupied by an enemy troop cannot be dismantled
 
-- - -
+
 
 ## Marching
 - During march phase move and attack with each unit one at a time
@@ -92,7 +103,7 @@ Can generate 1 Military Token per turn
 - Units moving to/from/within a canyon have a -1 movement penalty
 - Units can always move at least 1 tile per turn
 
-## Attacking
+## Combat
 - The **Power** values of both units are added to the dice
 - The area of battle is the tile on which the defender party stands
 - An attack can be performed even if the unit is out of moves
@@ -112,14 +123,21 @@ Can generate 1 Military Token per turn
 - A ranged attack can be evaded by rolling 2 or higher
   - This value can be increased by supporting with additional ships (+2 per ship)
 
+### City siege
+- During an attack on a city, only the attacker throws the dice
+- If the attacker's combat power exceeds the city's defense, the city is destroyed
+- A tie proceeds in the same way as a normal battle
+
+### Spells
+
 ## Recruiting and disbanding
 - One unit can be recruited per city
 - Unit limit is city count + 1
   - 4 cities -> unit limit is 5
 - City spawn radius is the same as city radius
-- Enemy troop within city border limits spawn radius to enemy distance to enemy - 2
-  - Example: When enemy troop is within 3 tiles from the city, spawn radius is limited to radius 1
-- Troop can be disbanded within city range of any level
+- Closest enemy troop to a city limits its spawn radius to: [ *distance to enemy - 2 ]
+  - Example: When an enemy troop is within 3 tiles of the city, its spawn radius is limited to 1
+- Troops can be disbanded from within friendly territory
 
 - - -
 
@@ -127,7 +145,8 @@ Can generate 1 Military Token per turn
 ### Land tokens
 
 Houses can be replaced with land tokens to gain back houses.\
-Land tokens can be swapped back to houses if needed. (Requires a build action)
+Land tokens can be swapped back to houses if needed.\
+Both require a build action.
 
 ### Military tokens
 
