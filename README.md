@@ -48,13 +48,6 @@ Building cannot be performed on a tile with an enemy unit.
 | **Combat Power** | Value of the dice + the **Power** of the participating units |
 | **City Center** | The building built in the center of the cit |
 
-<!-- **City Area** - The tiles within the city's range\ -->
-<!-- **Friendly Territory** - The area defined by the combined area of the player's cities\ -->
-<!-- **Conflicted Territory** - An area in which multiple territories are overlapping\ -->
-<!-- **Hostile Territory** - An enemy player's territory\ -->
-<!-- **Combat Power** - Value of the dice + the **Power** of the participating units\ -->
-<!-- **City Center** - The building built in the center of the city -->
-
 ### City building
 Create a 6 house ring and place a [**City Center**](#terms) in the middle to build a city\
 Upgrade a city by building an additional ring around the [**City Center**](#terms)\
